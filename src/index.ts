@@ -7,7 +7,7 @@
 // of yet. Native voice over WebTransport (CXP/1) is not implemented here;
 // this client only exercises identity, session, and directory.
 
-const SERVER_URL = "http://localhost:8080";
+const SERVER_URL = "http://localhost:7700";
 
 function bytesToBase64(bytes: Uint8Array): string {
   let binary = "";
