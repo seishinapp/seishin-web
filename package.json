@@ -1,0 +1,13 @@
+{
+  "name": "@seishin/web-client",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal Seishin web client: guest login, directory browsing, native voice over WebTransport, HRTF spatial rendering.",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
