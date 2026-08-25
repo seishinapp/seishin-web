@@ -5,9 +5,11 @@
   "description": "Minimal Seishin web client: guest login, directory browsing, native voice over WebTransport, HRTF spatial rendering.",
   "type": "module",
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build": "esbuild src/index.ts --bundle --outfile=dist/index.js"
   },
   "devDependencies": {
+    "esbuild": "^0.28.2",
     "typescript": "^5.7.0"
   }
 }
